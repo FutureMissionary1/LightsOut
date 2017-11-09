@@ -14,7 +14,7 @@ namespace LightsOut
     {
         private const int GridOffset = 25;  //Distance from upper-left side of window
         private const int GridLength = 200; //Size of cells in grid
-        private const int NumCells = 5;     //Number of cells in grid
+        private const int NumCells = 4;     //Number of cells in grid
         private const int CellLength = GridLength / NumCells;
 
         private bool[,] grid;
